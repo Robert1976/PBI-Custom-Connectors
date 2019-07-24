@@ -1,5 +1,5 @@
 # PBI-Custom-Connectors
-Custom connectors for Power BI
+This repository contains custom connectors for Power BI
 
 # Exact connector 
 
