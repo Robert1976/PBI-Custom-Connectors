@@ -31,6 +31,8 @@ Change the extension of the .mez file to zip and drag and drop the client_id and
 
 Now, place the .mez file in the 'custom connectors' folder of your computer (Power BI desktop should be installed on this computer, you can normally find this folder under '(c:)\Users\\{your accountname}\Documents\Power BI Desktop\Custom Connectors'). In case you have OneDrive running, you can find the folder at '(c:)\Users\\{your accountname}\OneDrive\Documenten\Power BI Desktop\Custom Connectors. If the folder does not exist, just create it yourself.
 
+The first time you use the connector you need to login with your Exact account.
+
 Next time you open Power BI the connector should appear in the datasources list. If you receive a warning about Uncertified connectors make sure that in Power BI under settings 'Data extensions' is set to 'Allow any extension'.
 
 <img src="https://github.com/Robert1976/PBI-Custom-Connectors/blob/master/Exact/Resources/exact6.PNG" width="450" >
