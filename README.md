@@ -5,7 +5,9 @@ This repository contains custom connectors for Power BI
 
 Exact connector is a custom Power BI connector to connect to Exact Online. To use this connector download the .mez file. 
 
-Create a client id and secret in Exact Online. See this url for instructions: https://support.exactonline.com/community/s/knowledge-base#All-All-DNO-Content-oauth-eol-oauth-dev-step1
+Create a client id and secret in Exact Online:
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
 Once you have obtained your id and secret, download the client_id and client_secret files and replace the client id and secret with your own values.
 
