@@ -3,14 +3,30 @@ This repository contains custom connectors for Power BI
 
 # Exact connector 
 
-Exact connector is a custom Power BI connector to connect to Exact Online. To use this connector download the .mez file. 
+Exact connector is a custom Power BI connector to connect to Exact Online. To use this connector download the .mez file in this respository. 
 
-Create a client id and secret in Exact Online:
+Next, create an app in Exact Online App Center (https://apps.exactonline.com/):
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+<img src="https://github.com/Robert1976/PBI-Custom-Connectors/blob/master/Exact/Resources/exact1.PNG" width="350" >
 
-Once you have obtained your id and secret, download the client_id and client_secret files and replace the client id and secret with your own values.
+Register a new app
 
-Change the extension of the .mez file to zip and drag and drop the client_id and client_secret file in the zip (so that they get copied into the zip file. You might want to check this.). Change the extension of the zip file back to .mez
+<img src="https://github.com/Robert1976/PBI-Custom-Connectors/blob/master/Exact/Resources/Exact2.PNG" width="250" >
 
-Place the .mez file in the 'custom connectors' folder of your computer (Power BI desktop should be installed on this computer, you can probably find this folder under 'Documents\Power BI Desktop\Custom Connectors'). The connector should now appear in the datasources list in Power BI.
+Fill in the required fields
+
+<img src="https://github.com/Robert1976/PBI-Custom-Connectors/blob/master/Exact/Resources/exact3.PNG" width="300" >
+
+Make sure that the 'Redirect URI' is 'https://oauth.powerbi.com/views/oauthredirect.html' and click 'Register'.
+
+Copy the client id and client secret from your newly created app to a notepad
+
+<img src="https://github.com/Robert1976/PBI-Custom-Connectors/blob/master/Exact/Resources/exact4.PNG" width="350" >
+
+Once you have obtained your client id and client secret, download the client_id and client_secret files from this repository and replace the client id and client secret with your own values (the ones that you obtained above).
+
+Change the extension of the .mez file to zip and drag and drop the client_id and client_secret files into the zip (so that they get copied into the zip file. You might want to check this by opening the zip file and then closing it again). After adding the client_id and client_secret files change the extension of the zip file back to .mez
+
+Now, place the .mez file in the 'custom connectors' folder of your computer (Power BI desktop should be installed on this computer, you can normally find this folder under '(c:)\Users\{your accountname}\Documents\Power BI Desktop\Custom Connectors'). 
+
+Next time you open Power BI the connector should appear in the datasources list.
