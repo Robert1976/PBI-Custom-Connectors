@@ -11,7 +11,7 @@ Next, create an app in Exact Online App Center (https://apps.exactonline.com/):
 
 Register a new app
 
-<img src="https://github.com/Robert1976/PBI-Custom-Connectors/blob/master/Exact/Resources/Exact2.PNG" width="250" >
+<img src="https://github.com/Robert1976/PBI-Custom-Connectors/blob/master/Exact/Resources/exact2.PNG" width="250" >
 
 Fill in the required fields
 
