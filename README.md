@@ -5,11 +5,11 @@ This repository contains custom connectors for Power BI
 
 Exact connector is a custom Power BI connector to connect to Exact Online. To use this connector download the .mez file in this respository (you can find this file in the 'Exact' folder). 
 
-Next, create an app in Exact Online App Center (https://apps.exactonline.com/):
+To be able to use this connector you need to create an app in Exact Online App Center (https://apps.exactonline.com/):
 
 <img src="https://github.com/Robert1976/PBI-Custom-Connectors/blob/master/Exact/Resources/exact1.PNG" width="350" >
 
-Register a new app
+Login and register a new app
 
 <img src="https://github.com/Robert1976/PBI-Custom-Connectors/blob/master/Exact/Resources/exact2.PNG" width="250" >
 
